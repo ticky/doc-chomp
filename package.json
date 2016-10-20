@@ -9,6 +9,15 @@
     "lint": "eslint src",
     "lint-and-fixup": "eslint --fix src"
   },
+  "keywords": [
+    "documents",
+    "es6",
+    "es2015",
+    "literals",
+    "template literals",
+    "trimming",
+    "heredoc"
+  ],
   "author": "Jessica Stokes <hello@jessicastokes.net>",
   "license": "MIT",
   "devDependencies": {
