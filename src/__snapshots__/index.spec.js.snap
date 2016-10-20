@@ -1,0 +1,124 @@
+exports[`Doc Chomp does some basic integrity checkups doesn't throw when supplied with a line for detection and text on the first line 1`] = `"This should work"`;
+
+exports[`Doc Chomp does some basic integrity checkups doesn't throw when supplied with a predefined indentation and text on the first line 1`] = `"This should work"`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when detecting it automatically is open to tab indentation 1`] = `
+"This document is indented with tabs!
+
+* Tabs are uniform
+	* Tabs adjust to viewer\'s preferences
+	* Tabs can mislead when attempting to align to syntax
+
+What fun.
+"
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when detecting it automatically likes space indentation 1`] = `
+"This document is indented with spaces!
+
+* Spaces are flexible and versatile
+  * Spaces are ubiquitous
+  * Spaces are not everything
+
+These are Doc Chomp\'s mentor\'s preferred type of indentation.
+"
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when predefined is open to tab indentation 1`] = `
+"This document is indented with tabs!
+
+* Tabs are uniform
+	* Tabs adjust to viewer\'s preferences
+	* Tabs can mislead when attempting to align to syntax
+
+What fun.
+"
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when predefined likes space indentation 1`] = `
+"        This document is indented with spaces!
+
+        * Spaces are flexible and versatile
+          * Spaces are ubiquitous
+          * Spaces are not everything
+
+        These are Doc Chomp\'s mentor\'s preferred type of indentation.
+        "
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when predefined likes space indentation 2`] = `
+"This document is indented with spaces!
+
+* Spaces are flexible and versatile
+  * Spaces are ubiquitous
+  * Spaces are not everything
+
+These are Doc Chomp\'s mentor\'s preferred type of indentation.
+"
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when the line for detection is overridden doesn't truncate the first line if non-empty 1`] = `
+"This document is indented with spaces!
+
+* Spaces are flexible and versatile
+  * Spaces are ubiquitous
+  * Spaces are not everything
+
+These are Doc Chomp\'s mentor\'s preferred type of indentation.
+"
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when the line for detection is overridden doesn't truncate the first line if non-empty 2`] = `
+"This document is indented with tabs!
+
+* Tabs are uniform
+	* Tabs adjust to viewer\'s preferences
+	* Tabs can mislead when attempting to align to syntax
+
+What fun.
+"
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when the line for detection is overridden is open to tab indentation 1`] = `
+"This document is indented with tabs!
+
+* Tabs are uniform
+	* Tabs adjust to viewer\'s preferences
+	* Tabs can mislead when attempting to align to syntax
+
+What fun.
+"
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when the line for detection is overridden is open to tab indentation 2`] = `
+"This document is indented with tabs!
+
+* Tabs are uniform
+	* Tabs adjust to viewer\'s preferences
+	* Tabs can mislead when attempting to align to syntax
+
+What fun.
+"
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when the line for detection is overridden likes space indentation 1`] = `
+"This document is indented with spaces!
+
+* Spaces are flexible and versatile
+  * Spaces are ubiquitous
+  * Spaces are not everything
+
+These are Doc Chomp\'s mentor\'s preferred type of indentation.
+"
+`;
+
+exports[`Doc Chomp makes ethical decisions about your whitespace when the line for detection is overridden likes space indentation 2`] = `
+"This document is indented with spaces!
+
+* Spaces are flexible and versatile
+  * Spaces are ubiquitous
+  * Spaces are not everything
+
+These are Doc Chomp\'s mentor\'s preferred type of indentation.
+"
+`;
