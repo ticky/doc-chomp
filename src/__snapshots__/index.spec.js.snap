@@ -1,3 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`Doc Chomp does some basic integrity checkups doesn't throw when supplied with a line for detection and text on the first line 1`] = `"This should work"`;
 
 exports[`Doc Chomp does some basic integrity checkups doesn't throw when supplied with a predefined indentation and text on the first line 1`] = `"This should work"`;
@@ -6,7 +8,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when detecting 
 "This document is indented with tabs!
 
 * Tabs are uniform
-	* Tabs adjust to viewer\'s preferences
+	* Tabs adjust to viewer's preferences
 	* Tabs can mislead when attempting to align to syntax
 
 What fun.
@@ -20,7 +22,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when detecting 
   * Spaces are ubiquitous
   * Spaces are not everything
 
-These are Doc Chomp\'s mentor\'s preferred type of indentation.
+These are Doc Chomp's mentor's preferred type of indentation.
 "
 `;
 
@@ -28,7 +30,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when predefined
 "This document is indented with tabs!
 
 * Tabs are uniform
-	* Tabs adjust to viewer\'s preferences
+	* Tabs adjust to viewer's preferences
 	* Tabs can mislead when attempting to align to syntax
 
 What fun.
@@ -42,7 +44,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when predefined
           * Spaces are ubiquitous
           * Spaces are not everything
 
-        These are Doc Chomp\'s mentor\'s preferred type of indentation.
+        These are Doc Chomp's mentor's preferred type of indentation.
         "
 `;
 
@@ -53,7 +55,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when predefined
   * Spaces are ubiquitous
   * Spaces are not everything
 
-These are Doc Chomp\'s mentor\'s preferred type of indentation.
+These are Doc Chomp's mentor's preferred type of indentation.
 "
 `;
 
@@ -64,7 +66,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when the line f
   * Spaces are ubiquitous
   * Spaces are not everything
 
-These are Doc Chomp\'s mentor\'s preferred type of indentation.
+These are Doc Chomp's mentor's preferred type of indentation.
 "
 `;
 
@@ -72,7 +74,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when the line f
 "This document is indented with tabs!
 
 * Tabs are uniform
-	* Tabs adjust to viewer\'s preferences
+	* Tabs adjust to viewer's preferences
 	* Tabs can mislead when attempting to align to syntax
 
 What fun.
@@ -83,7 +85,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when the line f
 "This document is indented with tabs!
 
 * Tabs are uniform
-	* Tabs adjust to viewer\'s preferences
+	* Tabs adjust to viewer's preferences
 	* Tabs can mislead when attempting to align to syntax
 
 What fun.
@@ -94,7 +96,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when the line f
 "This document is indented with tabs!
 
 * Tabs are uniform
-	* Tabs adjust to viewer\'s preferences
+	* Tabs adjust to viewer's preferences
 	* Tabs can mislead when attempting to align to syntax
 
 What fun.
@@ -108,7 +110,7 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when the line f
   * Spaces are ubiquitous
   * Spaces are not everything
 
-These are Doc Chomp\'s mentor\'s preferred type of indentation.
+These are Doc Chomp's mentor's preferred type of indentation.
 "
 `;
 
@@ -119,6 +121,6 @@ exports[`Doc Chomp makes ethical decisions about your whitespace when the line f
   * Spaces are ubiquitous
   * Spaces are not everything
 
-These are Doc Chomp\'s mentor\'s preferred type of indentation.
+These are Doc Chomp's mentor's preferred type of indentation.
 "
 `;
