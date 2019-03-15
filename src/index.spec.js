@@ -49,7 +49,7 @@ describe('Doc Chomp', () => {
       it('is open to tab indentation', () => {
         expect(
           /* eslint indent: ["error", "tab"] */
-					DocChomp`
+          DocChomp`
 						This document is indented with ${'tabs'}!
 
 						* Tabs are ${'uniform'}
@@ -97,7 +97,7 @@ describe('Doc Chomp', () => {
       it('is open to tab indentation', () => {
         expect(
           /* eslint indent: ["error", "tab"] */
-					DocChomp('						')`
+          DocChomp('						')`
 						This document is indented with ${'tabs'}!
 
 						* Tabs are ${'uniform'}
@@ -128,7 +128,7 @@ describe('Doc Chomp', () => {
 
         expect(
           /* eslint indent: ["error", "tab"] */
-					DocChomp(2)`This document is indented with ${'tabs'}!
+          DocChomp(2)`This document is indented with ${'tabs'}!
 
 						* Tabs are ${'uniform'}
 							* Tabs adjust to viewer's ${'preferences'}
@@ -173,7 +173,7 @@ describe('Doc Chomp', () => {
       it('is open to tab indentation', () => {
         expect(
           /* eslint indent: ["error", "tab"] */
-					DocChomp(2)`
+          DocChomp(2)`
 						This document is indented with ${'tabs'}!
 
 						* Tabs are ${'uniform'}
@@ -187,7 +187,7 @@ describe('Doc Chomp', () => {
 
         expect(
           /* eslint indent: ["error", "tab"] */
-					DocChomp(6)`
+          DocChomp(6)`
 						This document is indented with ${'tabs'}!
 
 						* Tabs are ${'uniform'}
