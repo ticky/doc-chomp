@@ -1,6 +1,6 @@
 # 🍴 Doc Chomp
 
-[![npm](https://img.shields.io/npm/v/doc-chomp.svg?maxAge=2592000)](https://www.npmjs.com/package/doc-chomp) ![doc-chomp](https://img.shields.io/npm/l/doc-chomp.svg?maxAge=2592000) [![Build Status](https://travis-ci.org/ticky/doc-chomp.svg?branch=master)](https://travis-ci.org/ticky/doc-chomp) [![codecov](https://codecov.io/gh/ticky/doc-chomp/branch/master/graph/badge.svg)](https://codecov.io/gh/ticky/doc-chomp)
+[![npm](https://img.shields.io/npm/v/doc-chomp.svg?maxAge=2592000)](https://www.npmjs.com/package/doc-chomp) ![doc-chomp](https://img.shields.io/npm/l/doc-chomp.svg?maxAge=2592000) [![Build Status](https://travis-ci.org/ticky/doc-chomp.svg?branch=develop)](https://travis-ci.org/ticky/doc-chomp) [![codecov](https://codecov.io/gh/ticky/doc-chomp/branch/develop/graph/badge.svg)](https://codecov.io/gh/ticky/doc-chomp)
 
 Doc Chomp chomps on your document literals
 
